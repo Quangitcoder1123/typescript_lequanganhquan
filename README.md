@@ -35,14 +35,7 @@ npm install
 ```sql
 CREATE DATABASE room_rental;
 ```
-
-4. Chạy file schema.sql để tạo bảng:
-
-```bash
-psql -U [username] -d room_rental -f app/db/schema.sql
-```
-
-5. Tạo file .env.local và cập nhật thông tin kết nối database:
+4. Tạo file .env.local và cập nhật thông tin kết nối database:
 
 ```env
 DB_USER=your_username
@@ -52,7 +45,7 @@ DB_PORT=5432
 DB_NAME=quanlyphongtro
 ```
 
-6. Chạy ứng dụng:
+5. Chạy ứng dụng:
 
 ```bash
 npm run dev
