@@ -22,7 +22,6 @@ Hệ thống quản lý thuê phòng trọ được xây dựng bằng Next.js v
 
 ```bash
 git clone [repository-url]
-cd room-rental-management
 ```
 
 2. Cài đặt dependencies:
